@@ -30,7 +30,6 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
-    flex: 1;
     margin: 0;
 }
 
@@ -73,7 +72,7 @@ button {
     background-color: beige;
     padding: 16px;
     margin: 0;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .content {
@@ -85,9 +84,6 @@ button {
     align-items: center;
 }
 
-figcaption {
-    display: inline;
-}
 
 .content img {
     border-radius: 25% 10%;
@@ -106,9 +102,27 @@ figcaption {
     text-align: center;
     font-size: 30px;
     background-image: url(https://img.freepik.com/free-photo/closeup-shot-waving-flag-united-states-america-with-interesting-textures_181624-15182.jpg?w=1800&t=st=1706722954~exp=1706723554~hmac=957e841f1e68e6ace3433ec8a6198d29171b2943cfc2ed6b2ca91de55b379a02);
-    color: white
+    color: white;
 }
 
 .hero {
     height: 100%;
+}
+
+.quote-name {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.call-now h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.call-now {
+    background-color: #C9700E;
+    display: flex;
+    height: 100px;
 }
