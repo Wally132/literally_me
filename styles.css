@@ -10,7 +10,7 @@
 .hero-image {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0 ,0 ,0, 0.5)),
     url("https://variety.com/wp-content/uploads/2011/05/drive-2011.jpg?w=1000&h=562&crop=1");
-    height: 50%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 41%;
     transform: (-50%, 50%);
     color: white;
 }
@@ -99,21 +99,24 @@ figcaption {
 
 .quote {
     display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 30px;
     background-image: url(https://img.freepik.com/free-photo/closeup-shot-waving-flag-united-states-america-with-interesting-textures_181624-15182.jpg?w=1800&t=st=1706722954~exp=1706723554~hmac=957e841f1e68e6ace3433ec8a6198d29171b2943cfc2ed6b2ca91de55b379a02);
     color: white;
+    height: 30%;
+}
+
+.quote-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 25px;
+    font-weight: 800px;
 }
 
 .hero {
     height: 100%;
-}
-
-.quote-name {
-    font-size: 20px;
-    display: flex;
-    align-items: flex-end;
-
 }
 
 .call-now h2 {
@@ -125,4 +128,11 @@ figcaption {
     background-color: #C9700E;
     display: flex;
     height: 100px;
+    margin: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    image-resolution: initial;
 }
